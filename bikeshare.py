@@ -61,6 +61,8 @@ def load_data(city, month, day):
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
+        ....................................
+        ....................................
     """
     # load data file into a dataframe
     df = pd.read_csv(city)
@@ -95,7 +97,7 @@ def time_stats(df):
         (DataFrame) df - Pandas DataFrame containing city data filtered by month and day
     """
 
-    print('\nCalculating The Most Frequent Times of Travel................\n')
+    print('\nCalculating The Most Frequent Times of Travel..............@@@..\n')
     start_time = time.time()
 
 
