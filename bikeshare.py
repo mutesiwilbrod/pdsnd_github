@@ -62,7 +62,7 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
         ....................................
-        ....................................
+        ....................................#############
     """
     # load data file into a dataframe
     df = pd.read_csv(city)
