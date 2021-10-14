@@ -11,5 +11,5 @@ Describe what your project is about and what it does
 Include the files used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I give credit to github documentation for making me understand git commands
 
