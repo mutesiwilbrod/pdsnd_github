@@ -62,7 +62,7 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
         ....................................
-        ....................................
+        ....................................###################################
     """
     # load data file into a dataframe
     df = pd.read_csv(city)
@@ -191,7 +191,7 @@ def user_stats(df, city):
         print('Most common birth from the given fitered data is: {}\n'.format(most_common_birth) )
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*50)
 
 
 def display_raw_data(df):
